@@ -1,0 +1,19 @@
+{
+  "name": "denosyscore/events",
+  "description": "Event dispatching and listener provider components",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "psr/event-dispatcher": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CFXP\\Core\\": "src/",
+      "CFXP\\Events\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
