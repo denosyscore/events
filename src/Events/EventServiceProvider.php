@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace CFXP\Core\Events;
+namespace Denosys\Events;
 
-use CFXP\Core\Container\ContainerInterface;
-use CFXP\Core\ServiceProviderInterface;
-use CFXP\Core\Exceptions\NotFoundException;
+use Denosys\Container\ContainerInterface;
+use Denosys\Contracts\ServiceProviderInterface;
+use Denosys\Container\Exceptions\NotFoundException;
 use Psr\EventDispatcher\EventDispatcherInterface;
 
 class EventServiceProvider implements ServiceProviderInterface

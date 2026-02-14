@@ -13,7 +13,7 @@ composer require denosyscore/events
 ## Included Modules
 
 - src/Events/* (legacy namespace)
-- src/*.php for CFXP\\Events\\* extracted namespace
+- src/*.php for Denosys\\Events\\* extracted namespace
 
 ## Development
 

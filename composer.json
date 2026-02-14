@@ -9,8 +9,7 @@
   },
   "autoload": {
     "psr-4": {
-      "CFXP\\Core\\": "src/",
-      "CFXP\\Events\\": "src/"
+      "Denosys\\\\Events\\\\": "src/Events/"
     }
   },
   "config": {
