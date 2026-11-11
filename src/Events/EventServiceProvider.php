@@ -36,18 +36,6 @@ class EventServiceProvider implements ServiceProviderInterface
 
     public function boot(ContainerInterface $container, ?EventDispatcherInterface $dispatcher = null): void
     {
-        if ($dispatcher !== null) {
-            $this->registerCoreListeners($dispatcher);
-        }
-    }
-
-    /**
-     * Register framework-specific event listeners.
-     */
-    private function registerCoreListeners(EventDispatcherInterface $dispatcher): void
-    {
-        // Register core framework listeners here
-        // Example:
-        // $dispatcher->listen(KernelBooted::class, [new ScreamBooting(), 'handle']);
+        // The package registers no listeners of its own.
     }
 }
